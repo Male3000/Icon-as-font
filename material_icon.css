@@ -1,0 +1,63 @@
+@font-face {
+    font-family:"Material-Iocn";
+    src: url("./fonts/MaterialIcons-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mti{
+    font-family: "Material-Iocn";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.mti-3d-phone:before{
+    content: "\E14E";
+}
+
+
+.E00:before {
+    content: "\E000"; 
+}
+
+.E01:before {
+    content: "\E001"; 
+}
+
+.E02:before {
+    content: "\E002"; 
+}
+
+.E03:before {
+    content: "\E003"; 
+}
+
+.E04:before {
+    content: "\E004"; 
+}
+
+
+.E30:before {
+    content: "\E030"; 
+}
+
+.E30:before {
+    content: "\E030";  
+}
+.E430:before {
+    content: "\E430";  
+}
+.F23A:before {
+    content: "\F23A";  
+}
+.EC0C:before {
+    content: "\EC0C";  
+}
+
+

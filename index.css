@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/Pacifico-Regular.woff2') format('woff2'),
+    url('fonts/Pacifico-Regular.ttf') format('truetype');
+}
+
+body{
+    font-family: Pacifico, sans-serif;
+    font-size: 1.5rem;
+}
+.flex{
+    display: flex;
+}
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+.gap-2{
+    gap: 1rem;
+}
+.gap-4{
+    gap: 2rem;
+}
+.items-center{
+    align-items: center;
+}
+.border{
+border: 1px solid gray;
+border-radius: .25rem;
+}
+
+.animated-rotate-slow {
+    animation: rotate-obj 10s linear infinite; 
+}
+.animated-rotate-medium {
+    animation: rotate-obj 7s linear infinite; 
+}
+.animated-rotate-fast {
+    animation: rotate-obj 2s linear infinite; 
+}
+.animated-rotate-ulta-fast {
+    animation: rotate-obj .5s linear infinite; 
+}
+
+@keyframes rotate-obj {
+    0% {
+        transform: rotate(0deg);  
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
+}

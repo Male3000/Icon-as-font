@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'AppIcon';
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/Random_icon_1.ttf") format('truetype'); 
+}
+
+.boi {
+    font-family: 'AppIcon';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.boi-check:before {
+    content: "\e901";
+}
+
+.boi-comment:before {
+    content: "\e902";
+}
+
+.boi-data-object:before {
+    content: "\e903";
+}
+
+.boi-flaky:before {
+    content: "\e904";
+}
+
+.boi-function:before {
+    content: "\e905";
+}
+
+.boi-list:before {
+    content: "\e906";
+}
+
+.boi-manage-search:before {
+    content: "\e907";
+}
+
+.boi-percent:before {
+    content: "\e908";
+}
+
+.boi-question-mark:before {
+    content: "\e909";
+}
+
+.boi-schedule:before {
+    content: "\e90a";
+}
+
+.boi-tag:before {
+    content: "\e90b";
+}
+
+.boi-text-fields1:before {
+    content: "\e90c";
+}
+
+
+
